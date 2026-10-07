@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
 `timescale 1ns / 1ps
 
 
@@ -5,9 +6,9 @@
 //Seed DDS: 0 mA (Limit 80mA)
 //Seed CW: 140 mA (Limit 140mA)
 
-//Pulse width limit, upper: 0µs
-//Pulse width limit, upper: 225µs
-//Period limit: 22500µs
+//Pulse width limit, upper: 0Âµs
+//Pulse width limit, upper: 225Âµs
+//Period limit: 22500Âµs
 
 //CW Current: 160mA
 //PWM Current: 80mA
