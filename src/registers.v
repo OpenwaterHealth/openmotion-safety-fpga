@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
 `timescale 1ns / 100ps
 
 module registers( 	   
@@ -91,8 +92,8 @@ always @ (posedge clk or posedge rst) begin
 	if (rst) begin
 	    count <= 0;
 		pulse_width_lower_limit <= 0;             
-		pulse_width_upper_limit <= 32'h00035c;    //Pulse width limit, upper: 275µs
-		rate_lower_limit <= 32'h0112a9;           //Period limit: 22500µs; 1 step = 320ns
+		pulse_width_upper_limit <= 32'h00035c;    //Pulse width limit, upper: 275Âµs
+		rate_lower_limit <= 32'h0112a9;           //Period limit: 22500Âµs; 1 step = 320ns
 		drive_current_limit <= 16'h0a80;           //Drive current: 5000mA
 		pwm_current_limit <= 16'h036b;
 		cw_current_limit <= 16'h036b;
